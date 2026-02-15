@@ -9,8 +9,8 @@ import ActivityDetailsSiderbar from "./ActivityDetailsSiderbar";
 
 export default function ActivityDetailsPage() {
     const { id } = useParams();
-    const { activity, isLoadingActivity } = useActivities(id);
-    if (isLoadingActivity) return <Typography>Loading...</Typography>
+    const { activity, isLoadingActivity} = useActivities(id);
+    if (isLoadingActivity) return <Typography></Typography>
     if (!activity) return <Typography>Activity not found</Typography>
     return (
         <Grid container spacing={3}>

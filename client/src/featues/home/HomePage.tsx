@@ -34,7 +34,7 @@ export default function HomePage() {
         size="large"
         variant="contained"
         sx={{ height: 80, borderRadius: 4, fontSize: '1.5rem' }}>
-        see sctivities
+        see Activities
       </Button>
 
     </Paper>
